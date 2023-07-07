@@ -25,6 +25,8 @@
   --size-150: 9.375rem;
 }
 
+html {  scroll-behavior: smooth; }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -110,5 +112,5 @@ img {
 }
 
 @media (min-width: 1200px) {
-  .container { max-width: 1080px; }
+  .container { max-width: 1140px; }
 }
